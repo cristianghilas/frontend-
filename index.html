@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Imbracaminte pentru toti">
+    <meta name="author" content="Ghilas Cristian">
+<meta name="robots" content="nofollow">
+<meta name="keywords" content="haine,incaltaminte,accesorii">
+
+<!-- aici sunt meta tag-uri opengraph -->
+<meta name="og:title" content="imbracaminte">
+<meta name="og:type" content="website">
+<meta name="og:url" content="https://azart.md/">
+<meta name="og:image" content="azart.webp">
+<meta name="og:site_name" content="Azart">
+<meta name="og:description" content="camase,fuste,pantaloni,sacouri...">
+
+    <title>Azart</title>
+    <link rel="icon" href="azart.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- aici avem introducerea paginii cu tagul nav care inca nu cunosc cum functioneaza:)) -->
+    <header>
+    <!-- aici am folosit heading si citeva paragrafe -->
+     <nav>
+
+     </nav>
+
+<h1>Azart</h1> 
+<h3><p>Magazin online</p></h3>
+
+<p>Aici gasesti orice ai dori!!!</p>
+<p>Nu ezita sa comanzi ceva...</p>
+<a href="#telefon">Pentru mai multe detalii sau reclamatii</a>
+<h3>
+    <hr>
+</header>
+
+<!-- aici avem cuprinsul paginii cu tag-urile <section>:<article> fara <aside pentru ca nu am reclame -->
+<main>
+
+<!-- aici am folosit lista neordonata impreuna cu paragraf  -->
+<ul>
+  <li>
+<p>Haine</p></li>
+  <li>
+      <p>Incaltaminte</p>
+  </li>
+  <li>
+      <p>Accesorii</p>
+  </li>
+</ul>
+
+<!--iarasi linkul intern  -->
+<a href="produse.html"> Produse pentru tine</a>
+
+
+<!-- aici e aceiasi lista ordonata insa am folosit "body", continut vizibil+iamgini+link+atribute-->
+
+  <ol start="1" type="1">
+      <li>Maiouri</li>
+      <li>Camase</li>
+      <li>Incaltaminte</li>
+      <li>Bratara</li>
+      <li>Inele</li>
+  </ol>
+  <section>
+    <article>
+
+      <img src="https://azart.md/images/product/2024/05/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_viber_2024-05-25_14-34-58-540.webp" width="200">
+
+      <a href="https://azart.md/camasa-stronger-sport-52726" target="_blank" > Camasa femei</a>
+   
+
+
+<img src=""https://azart.md/images/product/2024/05/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_viber_2024-05-25_14-34-58-540.web" alt="camasa femei">
+
+ </article>
+</section>
+
+<section>
+    <article>
+    
+<img src="https://azart.md/images/product/2024/08/215187-3650_3.webp" width="150">
+
+<a href="https://azart.md/altele-hummel-mid-season-56402" target="_blank"> Adidasi sport </a>
+
+<img src="https://azart.md/altele-hummel-mid-season-5640" alt="adidasi sport">
+
+</article>
+</section>
+
+<section>
+    <article>
+
+<img src="geanta cropp.webp" width="150">
+<p>Geanta crop</p>
+
+</article>
+</section>
+
+<section>
+    <article>
+
+<img src="bratara cartier.webp" width="150">
+<p>Bratara Cartier</p>
+
+</article>
+</section>
+
+<section>
+    <article>   
+<h2>
+  <p>Totul pentru tine</p>
+</h2>
+
+<!-- link la numarul de telefon+e-mail -->
+ <a href="https://azart.md/" target="_blank"><b><i>Procura acum</i></b></a>
+
+
+    <P>Lasa un numar de contact pentru a lua legatura</P>
+</h3>
+
+<!-- aici am folosit atributele tagurile form+input+label cu atributele type+placeholder+id+for
+ am adaugat nume, am validat si am pus numar maxim la telefon -->
+<form>
+
+    <input type="text" placeholder="Nume" name="nume" required>
+
+    <br><br>
+
+    <input type="text" placeholder="Prenume" name="prenume" required>
+
+    <br><br>
+
+    <input type="tel" placeholder="Telefon" name="telefon" maxlength="9" required>
+
+<br><br>
+
+<label for="ora">Ora dorita:</label>
+
+<input id="ora" type="time" required>
+
+<br><br>
+
+<!-- aici am dat nume si value+required-->
+<input type="radio" id="apel" name="apel" value="apel" required><label for="apel">Apel</label>
+<input type="radio" id="mesaj" name="apel" value="mesaj" required><label for="mesaj">Mesaj</label>
+
+<br><br>
+
+<input id="confirm" type="checkbox" name="de_acord" value="confirm">
+<label for="confirm">Sunt de acord </label>
+
+<br><br>
+
+<input type="submit" name="date_trimise">
+
+</form>
+</article>
+</section>
+</main>
+
+
+<!-- aici am icheiere  -->
+<footer>
+<!-- aici am adaugat link la tel+e-mail-->
+<a href="tel:+37360123456">
+    <p id="telefon">tel:+37360123456</p>
+</a>
+<a href="mailto:cristianghilas@gmail.com">
+    <P>e-mail:cristianghilas@gmail.com</P>
+</a>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
