@@ -24,29 +24,35 @@
 
 </head>
 
-<body>
+<body >
+
 
     <!-- avem introducerea paginii -->
     <header>
 <!-- aici sa folosit link intern -->
    <a href="index.html">Inapoi</a>
 
-<h1><p>Procura acum <hr></p></h1>
+<h1 class="titlul"><p>Procura acum <hr></p></h1>
 </header>
 <!-- aici avem cuprinsul cu <section>:<article> -->
 <main>
      
-    <ol>
+    <ul class="lista_produse">
 <li><p>Haine</p></li>
     <li><p>Incaltaminte</p></li>
     <li><P>Accesorii</P></li>
-    </ol>
+    </ul>
+
+<br>
+<br>
+<br>
+<br>
 
 <!-- aici am decis sa adaug un video pentru clienti -->
- <section>
+ <section class="video">
     <article>
 
-    <video src="Be Special _ Be YOU.mp4" width="500" autoplay muted>
+    <video src="Be Special _ Be YOU.mp4" width="1000" autoplay muted class="img">
     
     <source src="Be Special _ Be YOU.flv">
     
@@ -58,20 +64,25 @@
 <section>
     <article>
 
-<h4><p>Ne poti gasi aici!!<br>
-Vezi pe harta!</p></h4>
+<br>
+<br>
+<br>
+
+<h4 class="text_locatie"><p >Ne poti gasi aici!!</p>
+<p>Vezi pe harta!</p></h4>
 
 <!-- aici este locatia magazinului -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87030.72724747552!2d28.814397561718746!3d47.02629269514836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97dcdccb35cd3%3A0x56e3186bb262780f!2sAzart!5e0!3m2!1sru!2s!4v1738777927476!5m2!1sru!2s" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <div class="harta"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87030.72724747552!2d28.814397561718746!3d47.02629269514836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97dcdccb35cd3%3A0x56e3186bb262780f!2sAzart!5e0!3m2!1sru!2s!4v1738777927476!5m2!1sru!2s" width="1050" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 <br><hr>
 </article>
 </section>
 
-<section>
+<!-- <section>
     <article>
 
-<!-- aici am folosit bara pentru a lasa o nota -->
+aici am folosit bara pentru a lasa o nota 
 <h3><p>Apreciati locatia</p></h3>
 
 <form>
@@ -81,37 +92,40 @@ Vezi pe harta!</p></h4>
 
 </form>
 </article>
-</section>
+</section> -->
 
 <section>
     <article>
 
     
 <!-- aici avem textarea cu select si option si nume -->
-
 <br>
 
-<h3><p>Ce va impresionat cel mai mult</p></h3>
+<form >
 
-<form>
+<h3 class="impresii"><p>Ce va impresionat cel mai mult</p></h3>
 
-<select name="feedback">
+
+<div class="impresii">
+<select name="feedback" >
 
     <option>Locatia</option>
     <option>Personalul</option>
     <option selected>Asortimentul de produse</option>
 
 </select>
+</div>
 
 <br><br>
 
+<div class="comentarii">
 <textarea rows="10" cols="50" name="comentarii" placeholder="Lasa un comentariu..."></textarea>
 
 <br><br> 
 
 <input type="submit" name="comentariu_lasat">
 
-
+</div>
 </form>
 </article>
 </section>
@@ -119,6 +133,8 @@ Vezi pe harta!</p></h4>
 
 <!-- aici nu am incheiere dar cred ca nu e o greseala 
 :) -->
-
+<div>
+    <img src="apelati.png" class="apelati">
+</div>
     </body>
 </html>

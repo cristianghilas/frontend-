@@ -43,7 +43,11 @@
 <main>
 
 <!-- aici am folosit lista neordonata impreuna cu paragraf  -->
- <div class="imagine_colectie"> </div>
+ <div class="imagine_colectie">
+    <img src="1-az.png" class="img">
+</div>
+
+ <br>
 <ul class="lista_produse">
   <li>
 <p>Haine</p></li>
@@ -54,11 +58,13 @@
       <p>Accesorii</p>
   </li>
 </ul>
-
+<br>
 <!--iarasi linkul intern  -->
 <a href="produse.html">Produse pentru tine</a>
 
-
+<br>
+<br>
+<br>
 <!-- aici e aceiasi lista ordonata insa am folosit "body", continut vizibil+iamgini+link+atribute-->
 
   <ol start="1" type="1" class="produse_interne">
@@ -69,52 +75,72 @@
       <li>Inele</li>
   </ol>
 
-  <div class="frame"></div>
+  <div class="frame">
+    <img src="frame.png" class="img">
+  </div>
 
-  <section class="produse_vinzare">
+<br>
+<br>
+<br>
+
+  <section  class="container">
     <article>
 
-      <img src="https://azart.md/images/product/2024/05/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_viber_2024-05-25_14-34-58-540.webp" width="200">
+      <div class="produse_vinzare">
+        <img src="https://azart.md/images/product/2024/05/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_viber_2024-05-25_14-34-58-540.webp" width="200" alt="camasa femei">
 
-      <a href="https://azart.md/camasa-stronger-sport-52726" target="_blank" > Camasa femei</a>
+     <!-- <div class="nume_produs">  -->
+        <a href="https://azart.md/camasa-stronger-sport-52726" target="_blank" > Camasa femei</a>
+    <!-- </div> -->
    
 
 
-<img src=""https://azart.md/images/product/2024/05/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_viber_2024-05-25_14-34-58-540.web" alt="camasa femei">
+<!-- <img src=""https://azart.md/images/product/2024/05/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_viber_2024-05-25_14-34-58-540.web" > -->
+</div>
 
  </article>
-</section>
 
-<section class="produse_vinzare">
+
+
     <article>
     
-<img src="https://azart.md/images/product/2024/08/215187-3650_3.webp" width="150">
+<div class="produse_vinzare">
 
-<a href="https://azart.md/altele-hummel-mid-season-56402" target="_blank"> Adidasi sport </a>
+<img src="https://azart.md/images/product/2024/08/215187-3650_3.webp" width="150" alt="adidasi sport">
+</div>
 
-<img src="https://azart.md/altele-hummel-mid-season-5640" alt="adidasi sport">
+<!-- <div class="nume_produs"> -->
+    <a href="https://azart.md/altele-hummel-mid-season-56402" target="_blank"> Adidasi sport </a>
+<!-- </div> -->
+
+<!-- <img src="https://azart.md/altele-hummel-mid-season-5640"> -->
 
 </article>
-</section>
 
-<section class="produse_vinzare">
+
+
     <article>
+
+<div class="produse_vinzare">
 
 <img src="geanta cropp.webp" width="150">
-<p>Geanta crop</p>
-
+<p class="nume_produs">Geanta crop</p>
+</div>
 </article>
-</section>
 
-<section class="produse_vinzare">
+
+
     <article>
 
-<img src="bratara cartier.webp" width="150">
-<p>Bratara Cartier</p>
+<div class="produse_vinzare">
 
+<img src="bratara cartier.webp" width="150">
+<p class="nume_produs">Bratara Cartier</p>
+</div>
 </article>
 </section>
-
+<br> <br> 
+<br>
 <section>
     <article>   
 <h2>
@@ -122,15 +148,23 @@
 </h2>
 
 <!-- link la numarul de telefon+e-mail -->
+ <div class="link">
+
  <a href="https://azart.md/" target="_blank"><b><i>Procura acum</i></b></a>
+</div>
+    </article>
+</section>
 
+<hr>
 
+<section class="legatura_client">
+    <article>
     <P>Lasa un numar de contact pentru a lua legatura</P>
 </h3>
 
 <!-- aici am folosit atributele tagurile form+input+label cu atributele type+placeholder+id+for
  am adaugat nume, am validat si am pus numar maxim la telefon -->
-<form>
+<form class="detalii_client">
 
     <input type="text" placeholder="Nume" name="nume" required>
 
@@ -189,7 +223,9 @@
 
 
 
-
+<div>
+    <img src="apelati.png" class="apelati">
+</div>
 
 </body>
 </html>

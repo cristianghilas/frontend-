@@ -2,7 +2,6 @@
 
 
 
-
 .titlul {
     text-align: center;
 font-size: 60px;
@@ -20,17 +19,16 @@ text-align:right
     }
 
 
-    .imagine_colectie { 
-     background-image: url(1-az.png); 
-     width:620px;
-        height: 220px;
+    .imagine_colectie {
+     /* width:800px;
         background-size:contain;
-        padding: 10px;
-        border: 1px;
+        padding: 20px;
+        border: 20px;
         margin: auto;
         box-sizing:content-box ;
         display: flex;
-        justify-content: center;
+        justify-content:center; */
+        text-align: center;
     }
 
     .lista_produse {
@@ -44,30 +42,102 @@ text-align:right
     }
 
     .frame {
-        background-image:url(frame.png) ;
-        width: 350px;
-        height: 350px;
+        /* width: 550px;
         background-size: contain;
         padding: 20px;
         border: 20px;
         margin: auto;
         box-sizing: content-box;
         display: flex;
-        justify-content: center;
+        justify-content: center; */
+        text-align: center;
     }
 
     .produse_interne {
         font-family:sigmar ;
     }
     
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
     .produse_vinzare {
-        padding: auto;
-        border: 2px;
-        margin: auto;
-        display: flex;
-        /* flex-direction:row; */
-        justify-content: center;
-        /* justify-content: space-between; */
-        flex-wrap: wrap;
-        gap: 30px;
+        width: 250px;
+        height: 250px;
+        background-size: contain;
+        padding: 5px;
+        border: 5px;
+        margin: 50px;;
+        box-sizing:border-box;
+        position: relative;
     }
+
+    .nume_produs {
+        position:absolute;
+        bottom: -85px;;
+    }
+
+    .link {
+        text-align: center;
+        text-transform:capitalize;
+    }
+
+    .legatura_client {
+        font-family: sigmar;
+        display: flex;
+        justify-content:center;
+        position: relative;
+        
+    }
+
+    .detalii_client {
+        text-align: center;
+    }
+
+    .video { 
+        text-align: center;
+       
+    }
+
+    .text_locatie {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-family: sigmar;
+    }
+
+    .harta {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .impresii {
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        
+    }
+
+.comentarii {
+    text-align: center;
+}
+
+.img {
+    width: 40vw;
+}
+
+.apelati {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+right: 50px;
+bottom: 40px;
+
+}
+
+@media ( max-width: 600px) {img {width: 80vw}}
